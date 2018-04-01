@@ -34,6 +34,8 @@ const spotifyApi = new SpotifyWebApi({
     redirectUri: redirect_uri
 });
 
+let user = {};
+
 
 export let getLogin = (req: Request, res: Response) => {
 
@@ -66,11 +68,6 @@ export let getSuccess = (req: Request, res: Response) => {
 
 export let getCallback = (req: Request, res: Response) => {
 
-    // your application requests refresh and access tokens
-    // after checking the state parameter
-
-    console.log(res);
-
     const code = req.query.code || null;
     const state = req.query.state || null;
     const storedState = req.cookies ? req.cookies[stateKey] : null;
@@ -102,38 +99,43 @@ export let getCallback = (req: Request, res: Response) => {
                     refresh_token = body.refresh_token;
 
                 spotifyApi.setAccessToken(access_token);
-                spotifyApi.getUserPlaylists('arielwb')
-                    .then((playlists) => {
-                        //send playlist to main window
-                        //ipcRenderer.send('pasted', '========>>');
 
-                        console.log(playlists);
+                spotifyApi.getMe()
+                    .then(function (data) {
+                        user = data.body;
+                        res.redirect('/success');
+                    }, function (err) {
+                        console.log('Something went wrong!', err);
                     });
-
-
-                //fetch user data
-
-                // const options = {
-                //     url: 'https://api.spotify.com/v1/me',
-                //     headers: { 'Authorization': 'Bearer ' + access_token },
-                //     json: true
-                // };
-
-                // // use the access token to access the Spotify Web API
-                // request.get(options, function (error, response, body) {
-                //     console.log(body);
-                // });
-
-                // // we can also pass the token to the browser to make requests from there
-                res.redirect('/success');
             } else {
-                res.redirect('/#' +
+                res.redirect('/#' + 
                     querystring.stringify({
                         error: 'invalid_token'
                     }));
             }
         });
     }
+};
+
+export let getPlaylists = (req: Request, res: Response) => {
+    console.log("Attempt to get playlist from user: ", user);
+    spotifyApi.getUserPlaylists(user.id, {limit: 50})
+        .then((playlists) => {
+            console.log(playlists);
+            res.send(JSON.stringify(playlists));
+            //send playlist to main window
+            //ipcRenderer.send('pasted', '========>>');
+        });
+};
+
+export let getSongsFromPlaylist = (req: Request, res: Response) => {
+    let playlist =  req.query.plylist;
+    console.log("Attempt to get songs from playlist: ", playlist);
+    spotifyApi.getPlaylist(user.id, playlist)
+        .then((playlists) => {
+            console.log(playlists);
+            res.send(JSON.stringify(playlists));
+        });
 };
 
 export let getRefreshToken = (req: Request, res: Response) => {

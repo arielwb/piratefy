@@ -73,12 +73,11 @@ expressApp.use(express.static(__dirname + '/public'))
   .use(cookieParser());
 
 expressApp.get('/login', apiController.getLogin);
-
 expressApp.get('/callback', apiController.getCallback);
-
-expressApp.get('/success', apiController.getSuccess);
-
 expressApp.get('/refresh_token', apiController.getRefreshToken);
+expressApp.get('/getPlaylists', apiController.getPlaylists);
+expressApp.get('/getSongs', apiController.getSongsFromPlaylist);
+expressApp.get('/success', apiController.getSuccess);
 
 console.log('Listening on 8888');
 expressApp.listen(8888);

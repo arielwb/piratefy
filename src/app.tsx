@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { LoginComponent }  from './components';
+import { Root }  from './containers/root.container';
 
 export class App extends React.Component<undefined, undefined> {
   render() {
     return (
-        <LoginComponent/>
+        <Root/>
     );
   }
 }

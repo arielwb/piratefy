@@ -4,4 +4,9 @@ export class SpotifyService {
         return fetch('')
             .then((response) => (response.json()));
     }
+
+    static getPlaylists() {
+        return fetch('http://localhost:8888/getPlaylists')
+            .then(response => response.json());
+    }
 }
