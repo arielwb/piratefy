@@ -70,18 +70,28 @@ function reducer(state = initialState, action) {
       })
 
     case DOWNLOAD:
-      return getNewState({
-        currentDownload: {},
-        downloadStack: state.downloadStack.filter(track => track.id !== action.track.id),
-        localFiles: state.localFiles.concat(action.track)
-      })
+      let newState = getNewState({});
+
+      newState.currentDownload = {};
+      newState.downloadStack = state.downloadStack.filter(track => track.id !== action.track.id);
+      newState.localFiles = state.localFiles.concat(action.track);
+
+      let localFileIndex = state.currentPlaylist.tracks.items.findIndex(item => item.track.id === action.track.id)
+      console.log('localFile', localFileIndex)
+      if (localFileIndex > -1) {
+
+        newState.currentPlaylist.tracks.items[localFileIndex].localFilePath = action.track.localPath;
+        console.log('newState', newState)
+      }
+
+      return getNewState(newState);
 
     case DOWNLOAD_BEGIN:
       return getNewState({
         currentDownload: action.track
       })
-    
-      case REMOVE_FILE:
+
+    case REMOVE_FILE:
       return getNewState({
         localFiles: state.localFiles.filter(item => item.id === action.track.id)
       })

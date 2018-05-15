@@ -57,10 +57,9 @@ export default class PlayerSource {
             //TODO: send track for electron download
             dispatch(downloadBegin(track));
             let newtrack = Object.assign({}, track, {
-                localPath: 'C:/testPath'
+                localPath: 'C:/Projects/piratefy/piratefy/sampleSongs/George_Gershwin_playing_Rhapsody_in_Blue.ogg'
             })
             setTimeout(() => dispatch(download(newtrack)), 1000);
         };
     }
-
 }
