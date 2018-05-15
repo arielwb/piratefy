@@ -1,21 +1,14 @@
-import { app, BrowserWindow, ipcMain } from 'electron';
+import { app, BrowserWindow } from 'electron';
 import installExtension, { REACT_DEVELOPER_TOOLS } from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
-const express = require('express');
-const cookieParser = require('cookie-parser');
-
-import * as apiController from "./expressApp";
-
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow: Electron.BrowserWindow | null = null;
+let mainWindow;
 
 const isDevMode = process.execPath.match(/[\\/]electron/);
 
-if (isDevMode) {
-  enableLiveReload({ strategy: 'react-hmr' });
-}
+if (isDevMode) enableLiveReload({ strategy: 'react-hmr' });
 
 const createWindow = async () => {
   // Create the browser window.
@@ -66,18 +59,3 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
-
-const expressApp = express();
-
-expressApp.use(express.static(__dirname + '/public'))
-  .use(cookieParser());
-
-expressApp.get('/login', apiController.getLogin);
-expressApp.get('/callback', apiController.getCallback);
-expressApp.get('/refresh_token', apiController.getRefreshToken);
-expressApp.get('/getPlaylists', apiController.getPlaylists);
-expressApp.get('/getSongs', apiController.getSongsFromPlaylist);
-expressApp.get('/success', apiController.getSuccess);
-
-console.log('Listening on 8888');
-expressApp.listen(8888);

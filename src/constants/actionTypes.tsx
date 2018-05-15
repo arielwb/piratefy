@@ -1,2 +1,0 @@
-export const LIST_PLAYLISTS = "LIST_PLAYLISTS";
-export const VIEW_PLAYLIST = "VIEW_PLAYLIST";
