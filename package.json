@@ -64,7 +64,7 @@
     "youtube-api": "^2.0.9",
     "youtube-dl": "^1.12.2",
     "ytdl": "^0.10.1",
-    "ytdl-core": "^0.20.2"
+    "ytdl-core": "^0.20.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
     "querystring": "^0.2.0",
