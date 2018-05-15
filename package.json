@@ -1,6 +1,6 @@
 {
-  "name": "my-project",
-  "productName": "my-project",
+  "name": "piratefy",
+  "productName": "Piratefy",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -34,7 +34,7 @@
         "packageManager": "npm"
       },
       "electronWinstallerConfig": {
-        "name": "my_project"
+        "name": "piratefy"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -44,7 +44,7 @@
       },
       "windowsStoreConfig": {
         "packageName": "",
-        "name": "myproject"
+        "name": "piratefy"
       }
     }
   },
