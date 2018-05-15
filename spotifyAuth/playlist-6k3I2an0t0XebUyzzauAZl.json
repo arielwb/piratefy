@@ -1,0 +1,529 @@
+{
+    "body": {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/arielwb/playlist/6k3I2an0t0XebUyzzauAZl"
+        },
+        "followers": {
+            "href": null,
+            "total": 0
+        },
+        "href": "https://api.spotify.com/v1/users/arielwb/playlists/6k3I2an0t0XebUyzzauAZl",
+        "id": "6k3I2an0t0XebUyzzauAZl",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://i.scdn.co/image/8d15f02b7825d602edfa6111bb3e8aef742f6e1f",
+                "width": 640
+            }
+        ],
+        "name": "pedrada",
+        "owner": {
+            "display_name": "Ariel Flor Borges",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/arielwb"
+            },
+            "href": "https://api.spotify.com/v1/users/arielwb",
+            "id": "arielwb",
+            "type": "user",
+            "uri": "spotify:user:arielwb"
+        },
+        "primary_color": null,
+        "public": false,
+        "snapshot_id": "8l1WBJlVTlbcW3IpQv8TXJQJTOx2S7gwLZsekaxMqQaHp3Q1EJmVFXRxfywzSyJ4",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/users/arielwb/playlists/6k3I2an0t0XebUyzzauAZl/tracks?offset=0&limit=100",
+            "items": [
+                {
+                    "added_at": "2016-10-15T14:35:33Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "album",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/6tOsSffQQIXmK8TqsDck8t"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/6tOsSffQQIXmK8TqsDck8t",
+                                    "id": "6tOsSffQQIXmK8TqsDck8t",
+                                    "name": "Chico Buarque",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:6tOsSffQQIXmK8TqsDck8t"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/5YARZzYbonX4CbZ5hucHPc"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/5YARZzYbonX4CbZ5hucHPc",
+                            "id": "5YARZzYbonX4CbZ5hucHPc",
+                            "images": [
+                                {
+                                    "height": 634,
+                                    "url": "https://i.scdn.co/image/8d15f02b7825d602edfa6111bb3e8aef742f6e1f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 297,
+                                    "url": "https://i.scdn.co/image/2cd94099091ae84b185aa16f97529a5f1801d231",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 63,
+                                    "url": "https://i.scdn.co/image/c2f5b122387d78083629d1349f411c5777ede085",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Construção",
+                            "release_date": "1971-01-01",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:5YARZzYbonX4CbZ5hucHPc"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6tOsSffQQIXmK8TqsDck8t"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6tOsSffQQIXmK8TqsDck8t",
+                                "id": "6tOsSffQQIXmK8TqsDck8t",
+                                "name": "Chico Buarque",
+                                "type": "artist",
+                                "uri": "spotify:artist:6tOsSffQQIXmK8TqsDck8t"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 383706,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "BRPGD7100036"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/1ECean5dVz7mYQ07mdVGKT"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/1ECean5dVz7mYQ07mdVGKT",
+                        "id": "1ECean5dVz7mYQ07mdVGKT",
+                        "is_local": false,
+                        "name": "Construção",
+                        "popularity": 55,
+                        "preview_url": "https://p.scdn.co/mp3-preview/2ebfa50a53f21962d986c9b179de51d875446665?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 4,
+                        "type": "track",
+                        "uri": "spotify:track:1ECean5dVz7mYQ07mdVGKT"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-10-15T14:35:49Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "album",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/6tOsSffQQIXmK8TqsDck8t"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/6tOsSffQQIXmK8TqsDck8t",
+                                    "id": "6tOsSffQQIXmK8TqsDck8t",
+                                    "name": "Chico Buarque",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:6tOsSffQQIXmK8TqsDck8t"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/4K3E5bhJb92E7eyeIJ16QR"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/4K3E5bhJb92E7eyeIJ16QR",
+                            "id": "4K3E5bhJb92E7eyeIJ16QR",
+                            "images": [
+                                {
+                                    "height": 634,
+                                    "url": "https://i.scdn.co/image/f6f16fdf91543cc7a7d66e5f1a25b14b4044565b",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 297,
+                                    "url": "https://i.scdn.co/image/9060347a877b9c581ed49cc2fccc3dd313537881",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 63,
+                                    "url": "https://i.scdn.co/image/3acb09e5abcd15da8950cccb012ecb3f33d16157",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Chico Buarque",
+                            "release_date": "1978-01-01",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:4K3E5bhJb92E7eyeIJ16QR"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6tOsSffQQIXmK8TqsDck8t"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6tOsSffQQIXmK8TqsDck8t",
+                                "id": "6tOsSffQQIXmK8TqsDck8t",
+                                "name": "Chico Buarque",
+                                "type": "artist",
+                                "uri": "spotify:artist:6tOsSffQQIXmK8TqsDck8t"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3Bnq7jiU506HcPjRgQ43TM"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3Bnq7jiU506HcPjRgQ43TM",
+                                "id": "3Bnq7jiU506HcPjRgQ43TM",
+                                "name": "Milton Nascimento",
+                                "type": "artist",
+                                "uri": "spotify:artist:3Bnq7jiU506HcPjRgQ43TM"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 241866,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "BRPGD7800015"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/0VUgbCK0k8QWGpLiEV8YYZ"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/0VUgbCK0k8QWGpLiEV8YYZ",
+                        "id": "0VUgbCK0k8QWGpLiEV8YYZ",
+                        "is_local": false,
+                        "name": "Cálice",
+                        "popularity": 47,
+                        "preview_url": "https://p.scdn.co/mp3-preview/2d63b186e13374c4ebb7f0f17e244609a352fcba?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 2,
+                        "type": "track",
+                        "uri": "spotify:track:0VUgbCK0k8QWGpLiEV8YYZ"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                }
+            ],
+            "limit": 100,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        },
+        "type": "playlist",
+        "uri": "spotify:user:arielwb:playlist:6k3I2an0t0XebUyzzauAZl"
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=0",
+        "etag": "\"34994971cbfbe08c4d5e4506179f86ef\"",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+        "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+        "access-control-allow-credentials": "true",
+        "access-control-max-age": "604800",
+        "content-encoding": "gzip",
+        "date": "Fri, 11 May 2018 14:44:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "clear",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+    },
+    "statusCode": 200
+}

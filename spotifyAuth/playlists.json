@@ -1,0 +1,189 @@
+{
+    "body": {
+        "href": "https://api.spotify.com/v1/users/arielwb/playlists?offset=0&limit=50",
+        "items": [
+            {
+                "collaborative": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/arielwb/playlist/7xSXK5oFSIlW9axG9mkCrM"
+                },
+                "href": "https://api.spotify.com/v1/users/arielwb/playlists/7xSXK5oFSIlW9axG9mkCrM",
+                "id": "7xSXK5oFSIlW9axG9mkCrM",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/9aba7180436a91b139a6a6197e6533a9cb602e78d8fdd97e456756fd1ab7cd9bdc55915df739431ee32ea4ea8249fe64799d0843230d4e0ed4b2faecfe29323c0ed0ce98a7f943ee4b7439379c450848",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/9aba7180436a91b139a6a6197e6533a9cb602e78d8fdd97e456756fd1ab7cd9bdc55915df739431ee32ea4ea8249fe64799d0843230d4e0ed4b2faecfe29323c0ed0ce98a7f943ee4b7439379c450848",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/9aba7180436a91b139a6a6197e6533a9cb602e78d8fdd97e456756fd1ab7cd9bdc55915df739431ee32ea4ea8249fe64799d0843230d4e0ed4b2faecfe29323c0ed0ce98a7f943ee4b7439379c450848",
+                        "width": 60
+                    }
+                ],
+                "name": "toBeDownloaded",
+                "owner": {
+                    "display_name": null,
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/arielwb"
+                    },
+                    "href": "https://api.spotify.com/v1/users/arielwb",
+                    "id": "arielwb",
+                    "type": "user",
+                    "uri": "spotify:user:arielwb"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "Vhkfr8MV9vTdJXb8hbSdmc6StqLf1iRJpo/QvQfWB79nf9InTkYvpalk0YXNgIpO",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/users/arielwb/playlists/7xSXK5oFSIlW9axG9mkCrM/tracks",
+                    "total": 128
+                },
+                "type": "playlist",
+                "uri": "spotify:user:arielwb:playlist:7xSXK5oFSIlW9axG9mkCrM"
+            },
+            {
+                "collaborative": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/arielwb/playlist/4KlKNlnkvVj6o7XXInAO2P"
+                },
+                "href": "https://api.spotify.com/v1/users/arielwb/playlists/4KlKNlnkvVj6o7XXInAO2P",
+                "id": "4KlKNlnkvVj6o7XXInAO2P",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/b355725b9f2a13e1f28bffb25296e83fdb94434a",
+                        "width": 640
+                    }
+                ],
+                "name": "ffa",
+                "owner": {
+                    "display_name": null,
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/arielwb"
+                    },
+                    "href": "https://api.spotify.com/v1/users/arielwb",
+                    "id": "arielwb",
+                    "type": "user",
+                    "uri": "spotify:user:arielwb"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "zMy5lRwn6HXigVZj0u8DdHECD6YfLByM484iC1pXVUSLnVTir5jmbhFCVYlZ2zYM",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/users/arielwb/playlists/4KlKNlnkvVj6o7XXInAO2P/tracks",
+                    "total": 17
+                },
+                "type": "playlist",
+                "uri": "spotify:user:arielwb:playlist:4KlKNlnkvVj6o7XXInAO2P"
+            },
+            {
+                "collaborative": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/arielwb/playlist/6k3I2an0t0XebUyzzauAZl"
+                },
+                "href": "https://api.spotify.com/v1/users/arielwb/playlists/6k3I2an0t0XebUyzzauAZl",
+                "id": "6k3I2an0t0XebUyzzauAZl",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/8d15f02b7825d602edfa6111bb3e8aef742f6e1f",
+                        "width": 640
+                    }
+                ],
+                "name": "pedrada",
+                "owner": {
+                    "display_name": null,
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/arielwb"
+                    },
+                    "href": "https://api.spotify.com/v1/users/arielwb",
+                    "id": "arielwb",
+                    "type": "user",
+                    "uri": "spotify:user:arielwb"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "8l1WBJlVTlbcW3IpQv8TXJQJTOx2S7gwLZsekaxMqQaHp3Q1EJmVFXRxfywzSyJ4",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/users/arielwb/playlists/6k3I2an0t0XebUyzzauAZl/tracks",
+                    "total": 2
+                },
+                "type": "playlist",
+                "uri": "spotify:user:arielwb:playlist:6k3I2an0t0XebUyzzauAZl"
+            },
+            {
+                "collaborative": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/arielwb/playlist/5PaVfD6TmGPX4VRkL6zmkX"
+                },
+                "href": "https://api.spotify.com/v1/users/arielwb/playlists/5PaVfD6TmGPX4VRkL6zmkX",
+                "id": "5PaVfD6TmGPX4VRkL6zmkX",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://mosaic.scdn.co/640/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://mosaic.scdn.co/300/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                        "width": 300
+                    },
+                    {
+                        "height": 60,
+                        "url": "https://mosaic.scdn.co/60/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                        "width": 60
+                    }
+                ],
+                "name": "Timo Maas",
+                "owner": {
+                    "display_name": null,
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/arielwb"
+                    },
+                    "href": "https://api.spotify.com/v1/users/arielwb",
+                    "id": "arielwb",
+                    "type": "user",
+                    "uri": "spotify:user:arielwb"
+                },
+                "primary_color": null,
+                "public": false,
+                "snapshot_id": "ArUoiWUY+XD7ZeebvzohySAF31RUGZhzLnTcCloSscU+c/dLOei8Vu7vqIcJkbk0",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/users/arielwb/playlists/5PaVfD6TmGPX4VRkL6zmkX/tracks",
+                    "total": 11
+                },
+                "type": "playlist",
+                "uri": "spotify:user:arielwb:playlist:5PaVfD6TmGPX4VRkL6zmkX"
+            }
+        ],
+        "limit": 50,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 39
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=0",
+        "etag": "\"29f546337c3b3473e7ca0fcfff5f30f3\"",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+        "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+        "access-control-allow-credentials": "true",
+        "access-control-max-age": "604800",
+        "content-encoding": "gzip",
+        "date": "Fri, 11 May 2018 14:23:48 GMT",
+        "via": "1.1 google",
+        "alt-svc": "clear",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+    },
+    "statusCode": 200
+}

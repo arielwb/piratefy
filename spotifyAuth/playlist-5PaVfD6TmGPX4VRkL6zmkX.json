@@ -1,0 +1,2276 @@
+{
+    "body": {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/arielwb/playlist/5PaVfD6TmGPX4VRkL6zmkX"
+        },
+        "followers": {
+            "href": null,
+            "total": 0
+        },
+        "href": "https://api.spotify.com/v1/users/arielwb/playlists/5PaVfD6TmGPX4VRkL6zmkX",
+        "id": "5PaVfD6TmGPX4VRkL6zmkX",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/27d518e7b03bd9a2e927da39cef86701474135b872163e50dd63701fcd2b1da530f8ab31531adcf78add27ee54d7152d7e2181096fb94ade0ff8983f93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                "width": 60
+            }
+        ],
+        "name": "Timo Maas",
+        "owner": {
+            "display_name": "Ariel Flor Borges",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/arielwb"
+            },
+            "href": "https://api.spotify.com/v1/users/arielwb",
+            "id": "arielwb",
+            "type": "user",
+            "uri": "spotify:user:arielwb"
+        },
+        "primary_color": null,
+        "public": false,
+        "snapshot_id": "ArUoiWUY+XD7ZeebvzohySAF31RUGZhzLnTcCloSscU+c/dLOei8Vu7vqIcJkbk0",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/users/arielwb/playlists/5PaVfD6TmGPX4VRkL6zmkX/tracks?offset=0&limit=100",
+            "items": [
+                {
+                    "added_at": "2016-08-10T22:57:46Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/19YyrgyCTg5HBu3LyPBolv"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/19YyrgyCTg5HBu3LyPBolv",
+                            "id": "19YyrgyCTg5HBu3LyPBolv",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/8add27ee54d7152d7e2181096fb94ade0ff8983f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/cd7de4bb1cd05ce72e8d91843b60b7d510b4a66b",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/9458cff4fd49bc8f9f79f9a619b977da8780e0a3",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Once Upon A Time",
+                            "release_date": "2016-07-29",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:19YyrgyCTg5HBu3LyPBolv"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 476204,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB94U1600222"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/0QH6EHbp99CqIcosqsP9wf"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/0QH6EHbp99CqIcosqsP9wf",
+                        "id": "0QH6EHbp99CqIcosqsP9wf",
+                        "is_local": false,
+                        "name": "Once Upon A Time - Original Mix",
+                        "popularity": 5,
+                        "preview_url": "https://p.scdn.co/mp3-preview/fe8c067f8dc007c6c493753fa9dfd2a58d1ececf?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 1,
+                        "type": "track",
+                        "uri": "spotify:track:0QH6EHbp99CqIcosqsP9wf"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:57:46Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/19YyrgyCTg5HBu3LyPBolv"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/19YyrgyCTg5HBu3LyPBolv",
+                            "id": "19YyrgyCTg5HBu3LyPBolv",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/8add27ee54d7152d7e2181096fb94ade0ff8983f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/cd7de4bb1cd05ce72e8d91843b60b7d510b4a66b",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/9458cff4fd49bc8f9f79f9a619b977da8780e0a3",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Once Upon A Time",
+                            "release_date": "2016-07-29",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:19YyrgyCTg5HBu3LyPBolv"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 432684,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB94U1600223"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/6YjyjnojxHG8tPVHNp3HT4"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/6YjyjnojxHG8tPVHNp3HT4",
+                        "id": "6YjyjnojxHG8tPVHNp3HT4",
+                        "is_local": false,
+                        "name": "We Are One - Original Mix",
+                        "popularity": 4,
+                        "preview_url": "https://p.scdn.co/mp3-preview/7d8fe3e256426d10757b505f8c1918bd9328f67a?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 2,
+                        "type": "track",
+                        "uri": "spotify:track:6YjyjnojxHG8tPVHNp3HT4"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:57:55Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/7lx2Fs8ftKfXxOVPVHtbwK"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/7lx2Fs8ftKfXxOVPVHtbwK",
+                                    "id": "7lx2Fs8ftKfXxOVPVHtbwK",
+                                    "name": "James Teej",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:7lx2Fs8ftKfXxOVPVHtbwK"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/32KfAvGq0qr3CigVz17e22"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/32KfAvGq0qr3CigVz17e22",
+                            "id": "32KfAvGq0qr3CigVz17e22",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/0ed248f73c6bfdc681dc2c756e7e139051ec6472",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/a79672e81e7629be457afb1a56e5d90733099331",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "thingzz",
+                            "release_date": "2015-09-11",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:32KfAvGq0qr3CigVz17e22"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/7lx2Fs8ftKfXxOVPVHtbwK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/7lx2Fs8ftKfXxOVPVHtbwK",
+                                "id": "7lx2Fs8ftKfXxOVPVHtbwK",
+                                "name": "James Teej",
+                                "type": "artist",
+                                "uri": "spotify:artist:7lx2Fs8ftKfXxOVPVHtbwK"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 601994,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7NR1429401"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/2NRvM7KnaaFJLGIVhxk4jz"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/2NRvM7KnaaFJLGIVhxk4jz",
+                        "id": "2NRvM7KnaaFJLGIVhxk4jz",
+                        "is_local": false,
+                        "name": "thingzz - Original Mix",
+                        "popularity": 1,
+                        "preview_url": "https://p.scdn.co/mp3-preview/c78285ec3f42f52e7932bd39a88741bcfeb83bb6?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 1,
+                        "type": "track",
+                        "uri": "spotify:track:2NRvM7KnaaFJLGIVhxk4jz"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:57:55Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/7lx2Fs8ftKfXxOVPVHtbwK"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/7lx2Fs8ftKfXxOVPVHtbwK",
+                                    "id": "7lx2Fs8ftKfXxOVPVHtbwK",
+                                    "name": "James Teej",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:7lx2Fs8ftKfXxOVPVHtbwK"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/32KfAvGq0qr3CigVz17e22"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/32KfAvGq0qr3CigVz17e22",
+                            "id": "32KfAvGq0qr3CigVz17e22",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/93774a21bba370bfd33d4beca7d940a1ea6412c7",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/0ed248f73c6bfdc681dc2c756e7e139051ec6472",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/a79672e81e7629be457afb1a56e5d90733099331",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "thingzz",
+                            "release_date": "2015-09-11",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:32KfAvGq0qr3CigVz17e22"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/7lx2Fs8ftKfXxOVPVHtbwK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/7lx2Fs8ftKfXxOVPVHtbwK",
+                                "id": "7lx2Fs8ftKfXxOVPVHtbwK",
+                                "name": "James Teej",
+                                "type": "artist",
+                                "uri": "spotify:artist:7lx2Fs8ftKfXxOVPVHtbwK"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 482319,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7NR1429402"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/1SKavwz9kmhpQiwgGuQURY"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/1SKavwz9kmhpQiwgGuQURY",
+                        "id": "1SKavwz9kmhpQiwgGuQURY",
+                        "is_local": false,
+                        "name": "Shadows of Your Suns - Original Mix",
+                        "popularity": 0,
+                        "preview_url": "https://p.scdn.co/mp3-preview/dd3fd0944c9470afdb5b8e9a4edb1a4ec3e2b71b?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 2,
+                        "type": "track",
+                        "uri": "spotify:track:1SKavwz9kmhpQiwgGuQURY"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:04Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/7dnoOy3UWtBFHBw7cRGH5w"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/7dnoOy3UWtBFHBw7cRGH5w",
+                            "id": "7dnoOy3UWtBFHBw7cRGH5w",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/2ecc36a681c554205fdc9b8cecc436d0e3411e0f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/cbabcdd4e5f067375d3121f991dfd6b8b257f5a9",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/aab7d1c22c8c191a3a2161cd46c05f08abe642aa",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Watching The Robots EP",
+                            "release_date": "2014-06-23",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:7dnoOy3UWtBFHBw7cRGH5w"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            }
+                        ],
+                        "available_markets": [],
+                        "disc_number": 1,
+                        "duration_ms": 462166,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GBENT0140270"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/76UfayPFsOqDIktjyY1ZpC"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/76UfayPFsOqDIktjyY1ZpC",
+                        "id": "76UfayPFsOqDIktjyY1ZpC",
+                        "is_local": false,
+                        "name": "Watching The Robots - Original Mix",
+                        "popularity": 0,
+                        "preview_url": null,
+                        "track": true,
+                        "track_number": 1,
+                        "type": "track",
+                        "uri": "spotify:track:76UfayPFsOqDIktjyY1ZpC"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:04Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/7dnoOy3UWtBFHBw7cRGH5w"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/7dnoOy3UWtBFHBw7cRGH5w",
+                            "id": "7dnoOy3UWtBFHBw7cRGH5w",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/2ecc36a681c554205fdc9b8cecc436d0e3411e0f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/cbabcdd4e5f067375d3121f991dfd6b8b257f5a9",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/aab7d1c22c8c191a3a2161cd46c05f08abe642aa",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Watching The Robots EP",
+                            "release_date": "2014-06-23",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:7dnoOy3UWtBFHBw7cRGH5w"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1fxl29ywXYE3iCZVJBolwt"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1fxl29ywXYE3iCZVJBolwt",
+                                "id": "1fxl29ywXYE3iCZVJBolwt",
+                                "name": "Santos",
+                                "type": "artist",
+                                "uri": "spotify:artist:1fxl29ywXYE3iCZVJBolwt"
+                            }
+                        ],
+                        "available_markets": [],
+                        "disc_number": 1,
+                        "duration_ms": 524130,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GBENT0140271"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/57x02clWRklXOlqdkxtpQh"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/57x02clWRklXOlqdkxtpQh",
+                        "id": "57x02clWRklXOlqdkxtpQh",
+                        "is_local": false,
+                        "name": "Z Panorama - Original Mix",
+                        "popularity": 0,
+                        "preview_url": null,
+                        "track": true,
+                        "track_number": 2,
+                        "type": "track",
+                        "uri": "spotify:track:57x02clWRklXOlqdkxtpQh"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:04Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/7dnoOy3UWtBFHBw7cRGH5w"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/7dnoOy3UWtBFHBw7cRGH5w",
+                            "id": "7dnoOy3UWtBFHBw7cRGH5w",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/2ecc36a681c554205fdc9b8cecc436d0e3411e0f",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/cbabcdd4e5f067375d3121f991dfd6b8b257f5a9",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/aab7d1c22c8c191a3a2161cd46c05f08abe642aa",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Watching The Robots EP",
+                            "release_date": "2014-06-23",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:7dnoOy3UWtBFHBw7cRGH5w"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1fxl29ywXYE3iCZVJBolwt"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1fxl29ywXYE3iCZVJBolwt",
+                                "id": "1fxl29ywXYE3iCZVJBolwt",
+                                "name": "Santos",
+                                "type": "artist",
+                                "uri": "spotify:artist:1fxl29ywXYE3iCZVJBolwt"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/4MtJYRiDF5bHo8GEUiMSKC"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/4MtJYRiDF5bHo8GEUiMSKC",
+                                "id": "4MtJYRiDF5bHo8GEUiMSKC",
+                                "name": "My Favorite Robot",
+                                "type": "artist",
+                                "uri": "spotify:artist:4MtJYRiDF5bHo8GEUiMSKC"
+                            }
+                        ],
+                        "available_markets": [],
+                        "disc_number": 1,
+                        "duration_ms": 458060,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GBENT0140272"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/0Ks3wmZyCvoJPbPtGspMIR"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/0Ks3wmZyCvoJPbPtGspMIR",
+                        "id": "0Ks3wmZyCvoJPbPtGspMIR",
+                        "is_local": false,
+                        "name": "Z Panorama - My Favorite Robot Remix",
+                        "popularity": 0,
+                        "preview_url": null,
+                        "track": true,
+                        "track_number": 3,
+                        "type": "track",
+                        "uri": "spotify:track:0Ks3wmZyCvoJPbPtGspMIR"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:13Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/4ZfYNsxGcR5K1SRSN99IPB"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/4ZfYNsxGcR5K1SRSN99IPB",
+                            "id": "4ZfYNsxGcR5K1SRSN99IPB",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/68759266aa7ede2bff9705dd5e1ba0974d29e757",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/8c7c8dcaa385ba68af7141f51819c32feb216c50",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/4ccb156ceebb1a71155a2a2ab5b67962620db79f",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Lifer Concluded",
+                            "release_date": "2014-04-07",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:4ZfYNsxGcR5K1SRSN99IPB"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6zaXOYNFbclSYoBm2O4FiB"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6zaXOYNFbclSYoBm2O4FiB",
+                                "id": "6zaXOYNFbclSYoBm2O4FiB",
+                                "name": "Mikill Pane",
+                                "type": "artist",
+                                "uri": "spotify:artist:6zaXOYNFbclSYoBm2O4FiB"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 212172,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7QY1400053"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/7bwNaHT4m6CnoU3PkdyfGm"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/7bwNaHT4m6CnoU3PkdyfGm",
+                        "id": "7bwNaHT4m6CnoU3PkdyfGm",
+                        "is_local": false,
+                        "name": "Grown Up - Addison Groove Remix",
+                        "popularity": 1,
+                        "preview_url": "https://p.scdn.co/mp3-preview/26ef861013056571ad3e5071e1a2ff1823178e62?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 1,
+                        "type": "track",
+                        "uri": "spotify:track:7bwNaHT4m6CnoU3PkdyfGm"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:13Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/4ZfYNsxGcR5K1SRSN99IPB"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/4ZfYNsxGcR5K1SRSN99IPB",
+                            "id": "4ZfYNsxGcR5K1SRSN99IPB",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/68759266aa7ede2bff9705dd5e1ba0974d29e757",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/8c7c8dcaa385ba68af7141f51819c32feb216c50",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/4ccb156ceebb1a71155a2a2ab5b67962620db79f",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Lifer Concluded",
+                            "release_date": "2014-04-07",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:4ZfYNsxGcR5K1SRSN99IPB"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3QvyLNQBqeJXW4ujagJVjZ"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3QvyLNQBqeJXW4ujagJVjZ",
+                                "id": "3QvyLNQBqeJXW4ujagJVjZ",
+                                "name": "James Lavelle",
+                                "type": "artist",
+                                "uri": "spotify:artist:3QvyLNQBqeJXW4ujagJVjZ"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 538484,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7QY1400054"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/27CnTTsLqcRhpOPin3eTij"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/27CnTTsLqcRhpOPin3eTij",
+                        "id": "27CnTTsLqcRhpOPin3eTij",
+                        "is_local": false,
+                        "name": "The Hunted - Fur Coat Remix",
+                        "popularity": 2,
+                        "preview_url": "https://p.scdn.co/mp3-preview/254887c78754aff078dd3ed98c79d011a3e038f9?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 2,
+                        "type": "track",
+                        "uri": "spotify:track:27CnTTsLqcRhpOPin3eTij"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:13Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/4ZfYNsxGcR5K1SRSN99IPB"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/4ZfYNsxGcR5K1SRSN99IPB",
+                            "id": "4ZfYNsxGcR5K1SRSN99IPB",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/68759266aa7ede2bff9705dd5e1ba0974d29e757",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/8c7c8dcaa385ba68af7141f51819c32feb216c50",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/4ccb156ceebb1a71155a2a2ab5b67962620db79f",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Lifer Concluded",
+                            "release_date": "2014-04-07",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:4ZfYNsxGcR5K1SRSN99IPB"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3QvyLNQBqeJXW4ujagJVjZ"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3QvyLNQBqeJXW4ujagJVjZ",
+                                "id": "3QvyLNQBqeJXW4ujagJVjZ",
+                                "name": "James Lavelle",
+                                "type": "artist",
+                                "uri": "spotify:artist:3QvyLNQBqeJXW4ujagJVjZ"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 500483,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7QY1400055"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/28aMylz4XyHPhwiQXjVIEL"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/28aMylz4XyHPhwiQXjVIEL",
+                        "id": "28aMylz4XyHPhwiQXjVIEL",
+                        "is_local": false,
+                        "name": "The Hunted - Livio & Roby Remix",
+                        "popularity": 1,
+                        "preview_url": "https://p.scdn.co/mp3-preview/be677cb46355a93489e36368fbb81447f9241a76?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 3,
+                        "type": "track",
+                        "uri": "spotify:track:28aMylz4XyHPhwiQXjVIEL"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                },
+                {
+                    "added_at": "2016-08-10T22:58:13Z",
+                    "added_by": {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/user/arielwb"
+                        },
+                        "href": "https://api.spotify.com/v1/users/arielwb",
+                        "id": "arielwb",
+                        "type": "user",
+                        "uri": "spotify:user:arielwb"
+                    },
+                    "is_local": false,
+                    "primary_color": null,
+                    "track": {
+                        "album": {
+                            "album_type": "single",
+                            "artists": [
+                                {
+                                    "external_urls": {
+                                        "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                    },
+                                    "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                    "name": "Timo Maas",
+                                    "type": "artist",
+                                    "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                                }
+                            ],
+                            "available_markets": [
+                                "AD",
+                                "AR",
+                                "AT",
+                                "AU",
+                                "BE",
+                                "BG",
+                                "BO",
+                                "BR",
+                                "CA",
+                                "CH",
+                                "CL",
+                                "CO",
+                                "CR",
+                                "CY",
+                                "CZ",
+                                "DE",
+                                "DK",
+                                "DO",
+                                "EC",
+                                "EE",
+                                "ES",
+                                "FI",
+                                "FR",
+                                "GB",
+                                "GR",
+                                "GT",
+                                "HK",
+                                "HN",
+                                "HU",
+                                "ID",
+                                "IE",
+                                "IL",
+                                "IS",
+                                "IT",
+                                "JP",
+                                "LI",
+                                "LT",
+                                "LU",
+                                "LV",
+                                "MC",
+                                "MT",
+                                "MX",
+                                "MY",
+                                "NI",
+                                "NL",
+                                "NO",
+                                "NZ",
+                                "PA",
+                                "PE",
+                                "PH",
+                                "PL",
+                                "PT",
+                                "PY",
+                                "RO",
+                                "SE",
+                                "SG",
+                                "SK",
+                                "SV",
+                                "TH",
+                                "TR",
+                                "TW",
+                                "US",
+                                "UY",
+                                "VN",
+                                "ZA"
+                            ],
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/album/4ZfYNsxGcR5K1SRSN99IPB"
+                            },
+                            "href": "https://api.spotify.com/v1/albums/4ZfYNsxGcR5K1SRSN99IPB",
+                            "id": "4ZfYNsxGcR5K1SRSN99IPB",
+                            "images": [
+                                {
+                                    "height": 640,
+                                    "url": "https://i.scdn.co/image/68759266aa7ede2bff9705dd5e1ba0974d29e757",
+                                    "width": 640
+                                },
+                                {
+                                    "height": 300,
+                                    "url": "https://i.scdn.co/image/8c7c8dcaa385ba68af7141f51819c32feb216c50",
+                                    "width": 300
+                                },
+                                {
+                                    "height": 64,
+                                    "url": "https://i.scdn.co/image/4ccb156ceebb1a71155a2a2ab5b67962620db79f",
+                                    "width": 64
+                                }
+                            ],
+                            "name": "Lifer Concluded",
+                            "release_date": "2014-04-07",
+                            "release_date_precision": "day",
+                            "type": "album",
+                            "uri": "spotify:album:4ZfYNsxGcR5K1SRSN99IPB"
+                        },
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1nN9sUUgtCl0Z9ciCLc48Q"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1nN9sUUgtCl0Z9ciCLc48Q",
+                                "id": "1nN9sUUgtCl0Z9ciCLc48Q",
+                                "name": "Timo Maas",
+                                "type": "artist",
+                                "uri": "spotify:artist:1nN9sUUgtCl0Z9ciCLc48Q"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "RO",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TH",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY",
+                            "VN",
+                            "ZA"
+                        ],
+                        "disc_number": 1,
+                        "duration_ms": 608618,
+                        "episode": false,
+                        "explicit": false,
+                        "external_ids": {
+                            "isrc": "GB7QY1400056"
+                        },
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/track/3Ydu0KE01ZpjKmeISHYfpb"
+                        },
+                        "href": "https://api.spotify.com/v1/tracks/3Ydu0KE01ZpjKmeISHYfpb",
+                        "id": "3Ydu0KE01ZpjKmeISHYfpb",
+                        "is_local": false,
+                        "name": "Kick1 Kick3 - Maetrik Remix",
+                        "popularity": 7,
+                        "preview_url": "https://p.scdn.co/mp3-preview/49769a391d8897aaa01807c3ac290e110d751178?cid=0d19ab0e22d3445b96e1c5c65d16b227",
+                        "track": true,
+                        "track_number": 4,
+                        "type": "track",
+                        "uri": "spotify:track:3Ydu0KE01ZpjKmeISHYfpb"
+                    },
+                    "video_thumbnail": {
+                        "url": null
+                    }
+                }
+            ],
+            "limit": 100,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 11
+        },
+        "type": "playlist",
+        "uri": "spotify:user:arielwb:playlist:5PaVfD6TmGPX4VRkL6zmkX"
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=0",
+        "etag": "\"890a32ce07ca731f73222da9c2881094\"",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+        "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+        "access-control-allow-credentials": "true",
+        "access-control-max-age": "604800",
+        "content-encoding": "gzip",
+        "date": "Fri, 11 May 2018 14:44:59 GMT",
+        "via": "1.1 google",
+        "alt-svc": "clear",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+    },
+    "statusCode": 200
+}
