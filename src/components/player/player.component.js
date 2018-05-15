@@ -5,11 +5,11 @@ class PlayerComponent extends React.Component {
     constructor() {
         super();
         this.state = {
-            statusBarProgress: 0
+            statusBarProgress: 0,
+            showSeek: false
         }
         this.audio = new Audio();
         this.loaded = false;
-        this.statusBarProgress = 0;
     }
 
     componentWillReceiveProps(nextProps) {
@@ -32,7 +32,24 @@ class PlayerComponent extends React.Component {
     }
 
     updateProgressBar() {
-        return 100 * this.audio.currentTime / this.audio.duration + '%';
+        console.log('currentTime', this.audio.currentTime)
+        console.log('duration', this.audio.duration)
+        if (this.audio.currentTime === this.audio.duration) {
+            this.props.next();
+            return 0;
+        }
+        return 100 * this.audio.currentTime / this.audio.duration;
+    }
+
+    seek() {
+        this.audio.currentTime = this.audio.duration * this.progressBar.value / 100;
+    }
+
+    showSeekBar(status) {
+        console.log('showSeekBar', status)
+        this.progressBar.value = this.state.statusBarProgress;
+        this.setState({ showSeek: status })
+        console.log(this.state)
     }
 
     render() {
@@ -74,8 +91,28 @@ class PlayerComponent extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="progress" style={{ height: '4px' }}>
-                    <div className="progress-bar" role="progressbar" style={{ width: this.state.statusBarProgress, transition: 'width 0.1s ease-in-out' }} aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar-wrapper"
+                    onMouseEnter={this.showSeekBar.bind(this, true)}
+                    onMouseLeave={this.showSeekBar.bind(this, false)}>
+
+                    <div className="progress" style={{ height: '4px' }}>
+                        <div
+                            className={`progress-bar ${this.state.showSeek ? 'd-none' : ''}`}
+                            role="progressbar"
+                            style={{ width: this.state.statusBarProgress + '%', transition: 'width 0.1s ease-in-out' }}
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+
+                        ></div>
+                    </div>
+                    <input
+                        type="range"
+                        className={`custom-range ${this.state.showSeek ? '' : 'd-none'}`}
+                        style={{ position: 'absolute', bottom: 0 }}
+                        ref={input => this.progressBar = input}
+                        onChange={this.seek.bind(this)}
+                        id="customRange3"
+                    />
                 </div>
             </div >
         );
