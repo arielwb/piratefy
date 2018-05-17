@@ -7,7 +7,7 @@ import { LoginComponent } from '../';
 class HeaderComponent extends React.Component {
 
   render() {
-    
+
     return (
       <div id="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-between border-bottom shadow-sm">
@@ -28,7 +28,7 @@ class HeaderComponent extends React.Component {
             </div>
           </form>
 
-          <LoginComponent />
+          <LoginComponent {...this.props} />
 
         </nav>
 

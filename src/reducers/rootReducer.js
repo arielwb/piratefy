@@ -13,7 +13,8 @@ import {
   DOWNLOAD,
   DOWNLOAD_STACK_ADD,
   DOWNLOAD_BEGIN,
-  REMOVE_FILE
+  REMOVE_FILE,
+  SPOTIFY_LOGIN
 } from '../actions/const';
 
 const initialState = {
@@ -23,7 +24,9 @@ const initialState = {
   downloadStack: [],
   currentDownload: {},
   localFiles: [],
-  playStatus: false
+  playStatus: false,
+  user: {},
+  accessToken: ''
 };
 
 
@@ -117,6 +120,13 @@ function reducer(state = initialState, action) {
         prevChanges.playStatus = true;
       }
       return getNewState(prevChanges)
+
+    case SPOTIFY_LOGIN:
+      
+      return getNewState({
+        user: action.user,
+        accessToken: action.accessToken
+      })
 
     default:
       return state;

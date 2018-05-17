@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { listSongs, listPlaylists, changeSong } from '../actions'
+import { spotifyLogin } from '../actions'
 import { HeaderComponent } from '../components';
 
 const mapStateToProps = state => {
@@ -9,11 +9,13 @@ const mapStateToProps = state => {
         currentPlaylist: state.rootReducer.currentPlaylist,
         playStatus: state.rootReducer.playStatus,
         currentSong: state.rootReducer.currentSong,
+        user: state.rootReducer.user
     })
 }
 
 const mapDispatchToProps = dispatch => ({
-    login: id => dispatch(login())
+    login: id => dispatch(login()),
+    spotifyLogin: obj => dispatch(spotifyLogin(obj)),
 })
 
 // class HeaderContainer extends React.Component {

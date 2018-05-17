@@ -46,10 +46,8 @@ class PlayerComponent extends React.Component {
     }
 
     showSeekBar(status) {
-        console.log('showSeekBar', status)
         this.progressBar.value = this.state.statusBarProgress;
         this.setState({ showSeek: status })
-        console.log(this.state)
     }
 
     render() {
@@ -60,11 +58,13 @@ class PlayerComponent extends React.Component {
                 <div className="media ml-2 mt-2 mb-2" >
                     <img className="mr-2 img-thumbnail" style={{ width: '70px' }} src={this.props.currentSong.track.album.images[0].url} />
                     <div className="media-body">
-                        <h5 className="m-0 playlist-header-name">{this.props.currentSong.track.name}</h5>
+                        
+                        <h5 className=" m-0 playlist-header-name">{this.props.currentSong.track.name}</h5>
+                        
                         <p className="m-0">
-                            <small>{this.props.currentSong.track.artists[0].name}</small>
+                            <small className="text-truncate">{this.props.currentSong.track.artists[0].name}</small>
                             <br />
-                            <small>{this.props.currentSong.track.album.name}</small>
+                            <small className="text-truncate">{this.props.currentSong.track.album.name}</small>
                         </p>
                     </div>
                 </div>

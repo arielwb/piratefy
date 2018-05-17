@@ -4,9 +4,10 @@ import listSongs from '../actions/listSongs';
 
 export default class PlaylistSource {
 
-    static getPlaylists() {
+    static getPlaylists(userId) {
+
         return dispatch => {
-            return fetch('http://localhost:8888/getPlaylists')
+            return fetch('http://localhost:5000/getPlaylists?userId=' + userId)
                 .then(response => response.json())
                 .then(playlists => {
                     dispatch(listPlaylists(playlists.body.items))
@@ -18,7 +19,7 @@ export default class PlaylistSource {
 
     static getSongs(userId, playlistId) {
         return dispatch => {
-            return fetch(`http://localhost:8888/getSongs?playlist=${playlistId}&userId=${userId}`)
+            return fetch(`http://localhost:5000/getSongs?playlist=${playlistId}&userId=${userId}`)
                 .then(response => response.json())
                 .then(songs => {
                     dispatch(listSongs(songs.body))

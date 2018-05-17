@@ -15,6 +15,7 @@ import prev from '../actions/prev';
 import download from '../actions/download';
 import downloadStackAdd from '../actions/downloadStackAdd';
 import downloadBegin from '../actions/downloadBegin';
+import spotifyLogin from '../actions/spotifyLogin';
 
 import removeLocalFile from '../actions/removeLocalFile';
 const actions = {
@@ -27,6 +28,7 @@ const actions = {
   download,
   downloadStackAdd,
   downloadBegin,
-  removeLocalFile
+  removeLocalFile,
+  spotifyLogin
 };
 module.exports = actions;
