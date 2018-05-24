@@ -34,7 +34,6 @@ class SonglistComponent extends React.Component {
         let currentPlaylist = this.props.currentPlaylist.tracks.items;
         if (this.downloadBtn.checked) {
             currentPlaylist.forEach(item => {
-                console.log('item.track', item.track)
                 this.props.downloadStackAdd(item.track)
             });
         }

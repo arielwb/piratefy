@@ -10,13 +10,15 @@ const mapStateToProps = state => {
         currentPlaylist: state.rootReducer.currentPlaylist,
         downloadStack: state.rootReducer.downloadStack,
         currentDownload: state.rootReducer.currentDownload,
-        localFiles: state.rootReducer.localFiles
+        localFiles: state.rootReducer.localFiles,
+        user: state.rootReducer.user,
+        accessToken: state.rootReducer.accessToken
     })
 }
 
 const mapDispatchToProps = dispatch => ({
     listSongs: (userId, playlistId) => dispatch(PlaylistSource.getSongs(userId, playlistId)),
-    listPlaylists: () => dispatch(PlaylistSource.getPlaylists()),
+    listPlaylists: (user) => dispatch(PlaylistSource.getPlaylists(user)),
     changeSong: song => dispatch(PlayerSource.changeSong(song)),
     downloadStackAdd: track => dispatch(PlayerSource.downloadStackAdd(track)),
     removeLocalFile: track => dispatch(PlayerSource.removeLocalFile(track)),

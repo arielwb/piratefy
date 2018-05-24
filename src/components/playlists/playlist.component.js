@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 
 class PlaylistComponent extends React.Component {
 
-    componentDidMount() {
-        this.props.listPlaylists();
+    componentWillReceiveProps(nextProps) {
+        if(nextProps.user && nextProps.user !== this.props.user){
+            this.props.listPlaylists(nextProps.user.id);
+        }
     }
 
     render() {
@@ -14,7 +16,7 @@ class PlaylistComponent extends React.Component {
                     {
                         this.props.playlists.map((pl, key) => {
                             return (
-                                <a key={key} className="list-group-item list-group-item-action" onClick={() => this.props.listSongs(pl.owner.id, pl.id)}>
+                                <a key={key} className="list-group-item list-group-item-action text-truncate" onClick={() => this.props.listSongs(pl.owner.id, pl.id)}>
                                     {pl.name}
                                 </a>
                             )

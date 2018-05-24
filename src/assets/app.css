@@ -39,3 +39,13 @@ body,
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+.user-avatar{
+    border-radius: 40px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
