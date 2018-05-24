@@ -7,7 +7,7 @@
   "scripts": {
     "start": "start npm run apiStart & npm run electronStart",
     "electronStart": "electron-forge start",
-    "apiStart": "node ./spotifyAuth/index--.js",
+    "apiStart": "node ./spotifyAuth/index.js",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",

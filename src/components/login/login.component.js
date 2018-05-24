@@ -43,7 +43,7 @@ class LoginComponent extends React.Component {
 
   render() {
     let content = (<button type="button" onClick={this.openLoginWindow.bind(this)} className="btn btn-outline-success float-right">Spotify login</button>);
-    if(Object.keys(this.props.user).length > 0){
+    if(!!this.props.user && Object.keys(this.props.user).length > 0){
       content = (
         <div>
           
