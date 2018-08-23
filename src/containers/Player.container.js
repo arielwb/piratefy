@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import PlayerSource from '../sources/Player.source';
 import { PlayerComponent } from '../components'
+import actions from '../actions'
 
 const mapStateToProps = state => {
     return ({
-        playStatus: state.rootReducer.playStatus,
-        currentSong: state.rootReducer.currentSong,
-        downloadStack: state.rootReducer.downloadStack,
-        currentDownload: state.rootReducer.currentDownload,
-        localFiles: state.rootReducer.localFiles
+        playStatus: state.playerReducer.playStatus,
+        currentSong: state.playerReducer.currentSong,
+        downloadStack: state.downloadReducer.downloadStack,
+        currentDownload: state.downloadReducer.currentDownload,
+        localFiles: state.downloadReducer.localFiles,
+        currentPlaylist: state.listsReducer.currentPlaylist,
     })
 }
 
 const mapDispatchToProps = dispatch => ({
-    play: song => dispatch(PlayerSource.play(song)),
-    next: () => dispatch(PlayerSource.next()),
-    prev: () => dispatch(PlayerSource.prev()),
-    download: track => dispatch(PlayerSource.download(track))
+    play: song => dispatch(actions.play(song)),
+    next: tracks => dispatch(actions.next({ tracks })),
+    prev: tracks => dispatch(actions.prev({ tracks })),
 })
 
 export default connect(

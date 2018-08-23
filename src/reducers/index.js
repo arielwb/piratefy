@@ -9,7 +9,18 @@
  */
 /* Populated by react-webpack-redux:reducer */
 import { combineReducers } from 'redux';
-import rootReducer from '../reducers/rootReducer.js';
-const reducers = { rootReducer };
+// import rootReducer from '../reducers/rootReducer.js';
+import playerReducer from '../reducers/playerReducer';
+import listsReducer from '../reducers/listsReducer';
+import downloadReducer from '../reducers/downloadReducer';
+
+import loginReducer from '../reducers/loginReducer';
+const reducers = { 
+    // rootReducer,
+    playerReducer,
+    listsReducer,
+    downloadReducer,
+    loginReducer
+ };
 const combined = combineReducers(reducers);
 module.exports = combined;

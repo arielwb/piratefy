@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, ipcMain } from 'electron';
 import installExtension, { REACT_DEVELOPER_TOOLS } from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
@@ -15,6 +15,7 @@ const createWindow = async () => {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    nodeIntegration: true,
   });
 
   // and load the index.html of the app.
@@ -26,6 +27,8 @@ const createWindow = async () => {
     mainWindow.webContents.openDevTools();
   }
 
+
+
   // Emitted when the window is closed.
   mainWindow.on('closed', () => {
     // Dereference the window object, usually you would store windows
@@ -33,8 +36,16 @@ const createWindow = async () => {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+
+  ipcMain.on('reply', (event, message) => {
+    console.log('ipcMain', message)
+    mainWindow.webContents.send('logininfo', message )
+  });
+
 };
 
+
+// IpcRenderer.on('reply', (event, message) => console.log(message));
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.

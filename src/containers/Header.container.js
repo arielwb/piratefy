@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { listSongs, listPlaylists, changeSong } from '../actions'
+import actions from '../actions';
 import { HeaderComponent } from '../components';
 
 const mapStateToProps = state => {
     return ({
-        playlists: state.rootReducer.playlists,
-        currentPlaylist: state.rootReducer.currentPlaylist,
-        playStatus: state.rootReducer.playStatus,
-        currentSong: state.rootReducer.currentSong,
+        playlists: state.listsReducer.playlists,
+        currentPlaylist: state.listsReducer.currentPlaylist,
+        playStatus: state.playerReducer.playStatus,
+        currentSong: state.playerReducer.currentSong,
     })
 }
 
 const mapDispatchToProps = dispatch => ({
-    login: id => dispatch(login())
+    loginSuccess: user => dispatch(actions.loginSuccess({ user }))
 })
 
 // class HeaderContainer extends React.Component {

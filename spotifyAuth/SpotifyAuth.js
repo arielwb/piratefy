@@ -56,10 +56,18 @@ const getLogin = (req, res) => {
 
 const getSuccess = (req, res) => {
     console.log(req)
+    // ipc.on('message', (event, message) => {
+    //     console.log(message); // logs out "Hello second window!"
+    // })
+    // console.log(ipc)
+    // console.log('location', window.location)
+    // ipc.on('reply', m => console.log(m))
     res.send(`
-    <html><body><script>
-        window.close();
-    </script></body></html>
+        <html><body><script>
+            const ipc = require('electron').ipcRenderer;
+            ipc.send('reply', window.location.search);
+            window.close();
+        </script></body></html>
     `);
 };
 
@@ -96,11 +104,14 @@ const getCallback = (req, res) => {
                     refresh_token = body.refresh_token;
 
                 spotifyApi.setAccessToken(access_token);
+                spotifyApi.setRefreshToken(refresh_token);
 
                 spotifyApi.getMe()
                     .then(function (data) {
                         user = data.body;
-                        res.redirect('/success');
+                        let params = querystring.stringify(data.body)
+                        console.log('params', params)
+                        res.redirect('/success?' + params);
                     }, function (err) {
                         console.log('Something went wrong!', err);
                     });
@@ -115,41 +126,53 @@ const getCallback = (req, res) => {
 };
 
 const getPlaylists = (req, res) => {
-    console.log("Attempt to get playlist from user: ", user);
+    let userId = req.query.userId;
+    console.log("Attempt to get playlist from user: ", userId);
 
-    if (Object.keys(user).length > 0 ) {
-        spotifyApi.getUserPlaylists(user.id, { limit: 50 })
-            .then((playlists) => {
-                console.log(playlists);
-                res.send(JSON.stringify(playlists));
-            });
-    }
-    else{
-        getMock('playlists', null, data => {
-            res.send(data);
+    // if (Object.keys(user).length > 0) {
+    spotifyApi.getUserPlaylists(userId, { limit: 50 })
+        .then((playlists) => {
+            console.log(playlists);
+            res.send(JSON.stringify(playlists));
         })
-    }
-
-
+        .catch(e => console.log(e));
+    // }
+    // else {
+    //     getMock('playlists', null, data => {
+    //         res.send(data);
+    //     })
+    // }
 };
 
 const getSongsFromPlaylist = (req, res) => {
     let playlist = req.query.playlist;
     let userId = req.query.userId;
     console.log("Attempt to get songs from playlist: ", playlist);
-    if (Object.keys(user).length > 0 ) {
-        spotifyApi.getPlaylist(userId, playlist)
-            .then((playlists) => {
-                console.log(playlists);
-                res.send(JSON.stringify(playlists));
-            });
-    }
-    else{
-        getMock('songs', null, data => {
-            let songs = JSON.parse(data);
-            res.send(JSON.stringify(songs[playlist]));
+    // if (Object.keys(user).length > 0) {
+    spotifyApi.getPlaylist(userId, playlist)
+        .then((playlists) => {
+            console.log(playlists);
+            res.send(JSON.stringify(playlists));
         })
-    }
+        .catch(e => {
+            console.log(e)
+            // if (e.statusCode === 401) {
+            //     spotifyApi.refreshAccessToken()
+            //         .then(
+            //             data => spotifyApi.setAccessToken(data.body['access_token']),
+            //             err => console.log('Could not refresh access token', err))
+            //         .catch(e => console.log(e))
+            // }
+
+        }
+        );
+    // }
+    // else {
+    //     getMock('songs', null, data => {
+    //         let songs = JSON.parse(data);
+    //         res.send(JSON.stringify(songs[playlist]));
+    //     })
+    // }
 };
 
 const getRefreshToken = (req, res) => {

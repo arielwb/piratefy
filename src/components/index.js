@@ -1,8 +1,8 @@
-import HeaderComponent from './header/header.component';
-import LoginComponent from './login/login.component';
-import PlaylistComponent from './playlists/playlist.component';
-import SonglistComponent from './songList/songlist.component';
-import PlayerComponent from './player/player.component';
+import HeaderComponent from './header.component';
+import LoginComponent from './login.component';
+import PlaylistComponent from './playlist.component';
+import SonglistComponent from './songlist.component';
+import PlayerComponent from './player.component';
 
 
 export {
