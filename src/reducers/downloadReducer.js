@@ -1,3 +1,4 @@
+import { ipcRenderer } from 'electron';
 import { createReducers } from 'redux-arc';
 import downloadActions from '../actions/downloadActions';
 
@@ -14,7 +15,20 @@ const onDownloadStackAdd = (state, action) => {
     let isDownloaded = state.localFiles.some(track => track.id === action.payload.track.id)
     return !isDownloaded ? { ...state, downloadStack: state.downloadStack.concat(action.payload.track) } : state
 }
-const onDownloadBegin = (state, action) => ({ ...state, currentDownload: action.payload.track })
+const onDownloadBegin = (state, action) => {
+    console.log('ipcRenderer', ipcRenderer)
+    ipcRenderer.send('download', action.payload.track)
+
+    ipcRenderer.on('download', (event, arg) => {
+        console.log(arg) // prints "pong"
+    })
+
+    return {
+        ...state,
+        currentDownload: action.payload.track
+    }
+}
+
 const onDownloadEnd = (state, action) => ({
     ...state,
     currentDownload: {},

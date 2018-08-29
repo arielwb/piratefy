@@ -2,6 +2,8 @@ import { app, BrowserWindow, ipcMain } from 'electron';
 import installExtension, { REACT_DEVELOPER_TOOLS } from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
+import DowloadVideo from '../backend/download/download'
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
@@ -41,6 +43,15 @@ const createWindow = async () => {
     console.log('ipcMain', message)
     mainWindow.webContents.send('logininfo', message )
   });
+  
+  const downloader = new DowloadVideo()
+  ipcMain.on('download', (event, message) => {
+    console.log('ipcMain', message)
+    console.log('DowloadVideo', downloader)
+    downloader.download(message.youtubeId, (path) => event.sender.send('download', path))
+  });
+
+  
 
 };
 
